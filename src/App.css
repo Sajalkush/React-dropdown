@@ -1,0 +1,57 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f8f8f8;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+p{
+  font-weight: bold;
+  font-size:larger;
+  
+  
+  
+}
+
+.dropdown-button {
+  background-color: white;
+  color: black;
+  border: 1px solid gray;
+  padding: 10px;
+  font-size: 16px;
+  /* padding-right:50px ; */
+}
+
+
+.dropdown-items {
+  position: absolute;
+  background-color: white;
+  border: 1px solid gray;
+  min-width: 200px;
+}
+
+.dropdown-item {
+  padding: 10px;
+  font-size: 16px;
+  
+}
+
+.dropdown-item:hover {
+  background-color: #FF6F61;
+}
+
+/* Add a blue box around the dropdown component */
+.box {
+  width: 450px;
+  height: 200px;
+  background-color:#7bd7e2;
+  display: flex;
+  align-items:flex-start;
+  justify-content: center;
+}
+
